@@ -1,0 +1,45 @@
+.card {
+    border-radius: 15px;
+    filter: $secondary-drop-shadow;
+    background-image: $card-bg-gradient;
+    border: 3px solid transparent;
+    padding: 5em 1em;
+
+    @include xl {
+        padding: 4em 1em;
+    }
+
+    @include lg {
+        padding: 2em 0.75em;
+    }
+}
+
+.card-img {
+    width: 15rem;
+    height: 14rem;
+
+    @include lg {
+        width: 12rem;
+        height: 11rem;
+    }
+}
+
+.card {
+    .card-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-family: $secondary-font;
+    }
+
+    .card-description {
+        margin: 1em 0;
+        font-weight: 400;
+    }
+
+    .card-btn {
+        font-size: 1rem;
+        margin-top: 1rem;
+        @include main-btn-hover 
+    }
+}

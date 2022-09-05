@@ -1,0 +1,77 @@
+.app-section {
+
+    @include sm {
+        flex-direction: column;
+    }
+
+    .app-section-content {
+        flex-basis: 50%;
+        flex-direction: column;
+        padding: 0 2em;
+
+
+        @include sm {
+            order: 2;
+            margin-top: 2rem;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            font-weight: 400;
+            font-family: $secondary-font;
+            margin-bottom: 0.5em;
+
+            @include lg {
+                letter-spacing: 0;
+                font-size: 2.5rem;
+            }
+
+            @include md {
+                font-size: 2rem;
+            }
+        }
+
+        ul {
+            li {
+                list-style-type: disc;
+                margin: 0.75em 0;
+                font-size: 1.25rem;
+                font-weight: 400;
+
+                @include xl {
+                    font-size: 1.1rem;
+                }
+
+                @include md {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .app-section-img-wrap {
+        flex-basis: 50%;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-height: 40rem;
+
+            @include xxl {
+                max-height: 30rem;
+
+            }
+
+            @include xl {
+                max-height: 25rem;
+
+            }
+
+            @include sm {
+                max-height: 18rem;
+            }
+        }
+    }
+}

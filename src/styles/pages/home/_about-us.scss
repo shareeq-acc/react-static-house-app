@@ -1,0 +1,68 @@
+.about-us-section>* {
+    flex-basis: 50%;
+}
+
+.about-us-section {
+    padding: 4rem 0;
+    margin-bottom: 0 !important;
+
+    @include sm {
+        flex-direction: column;
+    }
+}
+
+.about-us-content-wrap {
+    flex-direction: column;
+    padding-left: 2rem;
+
+    @include md {
+        padding-left: 0;
+    }
+
+    h2 {
+        font-size: 3rem;
+        letter-spacing: 3px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        @include lg {
+            letter-spacing: 0;
+            font-size: 2.5rem;
+        }
+        @include md {
+            font-size: 2rem;
+        }
+    }
+
+    p {
+        font-size: 1.4rem;
+        margin: 2rem 0;
+
+        @include xl {
+            font-size: 1.1rem;
+        }
+        @include md {
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+    }
+
+}
+
+.about-us-img-wrap {
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    margin-bottom: 0.5rem;
+}
+
+.contact>* {
+    font-size: 1.25rem;
+    color: white;
+
+    @include lg {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,70 @@
+.security-system-features {
+    border-radius: 36px;
+    filter: $secondary-drop-shadow;
+    background-image: $secondary-bg-gradient;
+    border: 3px solid transparent;
+    padding: 3rem 0;
+    
+    @include lg {
+        padding: 1rem 0;
+    }
+
+    @include sm {
+        flex-direction: column;
+        padding: 1.5rem;
+        margin-right: 1.5em;
+        margin-left: 1.5em;
+    }
+
+    .security-section-features {
+        flex-direction: column;
+        flex-basis: 33%;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem;
+        text-align: center;
+
+        @include lg {
+            flex-basis: 45%;
+            margin-bottom: 1em;
+        }
+        @include md {
+            padding: 1rem ;
+            flex-basis: 50%;
+        }
+
+        .features-title {
+            font-size: 1.75rem;
+            letter-spacing: 3px;
+            font-weight: 600;
+            margin: 1rem 0;
+            text-transform: uppercase;
+
+            @include xl {
+                font-size: 1.5rem;
+            }
+            @include lg {
+                letter-spacing: 1px;
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+.features-img-wrap {
+    img {
+        height: 9rem;
+
+        @include xxl {
+            height: 7.5rem;
+        }
+
+        @include xl {
+            height: 6rem;
+        }
+
+        @include lg {
+            height: 5rem;
+        }
+    }
+}

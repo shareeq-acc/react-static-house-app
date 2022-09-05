@@ -1,0 +1,102 @@
+// Global Styles
+html {
+    font-size: 16px;
+
+    @include bp (900px) {
+        font-size: 14px;
+    }
+}
+
+.container {
+    position: relative;
+    padding: 0 10rem;
+    width: 100%;
+    height: 100%;
+    background: $primary-bg-gradient;
+    padding-bottom: 4rem !important;
+
+    @include xxl {
+        padding: 0 6rem;
+    }
+
+    @include xl {
+        padding: 0 4rem;
+    }
+
+    @include md {
+        padding: 0 2rem;
+    }
+}
+
+.img-wrap {
+    justify-content: center;
+
+    .main-img {
+        width: 28rem;
+
+        @include xxl {
+            width: 24rem;
+        }
+
+    }
+}
+
+.main-heading {
+    line-height: 1em;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: $secondary-font;
+    text-transform: uppercase;
+    max-width: 9ch;
+
+    @include xxl {
+        font-size: 3rem
+    }
+
+    @include lg {
+        font-size: 2.5rem;
+        max-width: 15ch;
+    }
+    @include bp(700px) {
+        font-size: 2rem;
+    }
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    max-width: 35ch;
+
+    @include xxl {
+        font-size: 1.25rem;
+    }
+
+    @include lg {
+        font-size: 1.15rem;
+    }
+
+    @include bp(700px) {
+        font-size: 1rem;
+    }
+}
+
+.img-wrap {
+    justify-content: center;
+    align-items: center;
+
+    .main-img {
+        width: 28rem;
+
+        @include xxl {
+            width: 24rem;
+        }
+
+        @include lg {
+            width: 20rem;
+        }
+
+        @include bp(700px)  {
+            width: 16rem;
+        }
+    }
+}

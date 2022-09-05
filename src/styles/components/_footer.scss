@@ -1,0 +1,127 @@
+.footer {
+    padding: 4rem 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: $secondary-bg;
+
+    @include xxl {
+        padding: 4rem 3rem;
+    }
+
+    @include xl {
+        padding: 3rem 2rem;
+    }
+
+    @include lg {
+        padding: 3rem 1rem;
+    }
+
+    @include bp (370px) {
+        flex-direction: column;
+    }
+
+
+    .footer-content {
+        flex-basis: 40%;
+
+        p {
+            margin: 1em 0;
+            font-size: 1.25rem;
+            font-weight: 600;
+            max-width: 30ch;
+
+            @include xl {
+                font-size: 1.1rem;
+            }
+
+            @include md {
+                text-align: center;
+                max-width: 50ch;
+                margin: 0;
+            }
+        }
+
+        @include xl {
+            flex-basis: 45%;
+        }
+
+        @include md {
+            margin-bottom: 1.5em;
+            flex-basis: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .footer-links-wrap {
+        flex-basis: 20%;
+
+        ul {
+            li {
+                cursor: pointer;
+                font-size: 1.25rem;
+                font-weight: 400;
+                margin-bottom: 0.6em;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                @include xl {
+                    font-size: 1.1rem;
+                    margin-bottom: 0.5em;
+                }
+
+                @include lg {
+                    font-size: 1rem;
+                    margin-bottom: 0.25em;
+                }
+            }
+
+        }
+
+        @include xl {
+            flex-basis: 17%;
+        }
+
+        @include md {
+            flex-basis: 23%;
+        }
+
+        @include sm {
+            flex-basis: 33%;
+        }
+
+        @include bp (370px) {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+
+    @include lg {
+        font-size: 1.25rem;
+        margin-bottom: 1em;
+    }
+
+    @include md {
+        margin-bottom: 0.5em;
+    }
+}
+
+.footer-design-credit {
+    display: block;
+    color: white;
+    margin-top: 1.5em;
+    font-size: 1.1rem;
+}

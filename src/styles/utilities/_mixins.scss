@@ -1,0 +1,47 @@
+@mixin input-field ($border: transparent, $bg: white) {
+    outline: none;
+    padding: 0.4em 0.8em;
+    border: 1px solid #{$border};
+    background: $bg;
+    border-radius: 15px;
+    font-size: $base-font-size * 1.2;
+    color: $border; // Color Same as Border Color
+
+    @if $bg ==white {
+        &::placeholder {
+            color: black;
+        }
+    }
+
+    @else {
+        &::placeholder {
+            color: white;
+        }
+    }
+
+    @include lg {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+    }
+}
+
+@mixin bp ($point: 0) {
+    @media screen and (max-width: $point) {
+        @content;
+    }
+}
+
+@mixin transition ($property: width, $time: 0.25s) {
+    -webkit-transition: $property $time linear;
+    -moz-transition: $property $time linear;
+    -o-transition: $property $time linear;
+    -ms-transition: $property $time linear;
+}
+
+@mixin main-btn-hover ($bg : $secondary-bg) {
+    &:hover {
+        border: 1px solid transparent !important;
+        background-color: $bg !important;
+        @include transition(background-color)
+    }
+}

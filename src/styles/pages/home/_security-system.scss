@@ -1,0 +1,59 @@
+.security-system-section {
+    position: relative;
+    .bg-pattern {
+        position: absolute;
+    }
+}
+.security-system {
+    &>* {
+        flex-basis: 50%;
+    }
+
+    @include sm {
+        flex-direction: column;
+    }
+
+}
+
+.security-img-wrap {
+    margin-bottom: 1rem;
+}
+
+.security-topic-content {
+    flex-direction: column;
+
+    .title {
+        font-size: 3.25rem;
+        font-weight: 400;
+        font-family: $secondary-font;
+
+        @include lg {
+            font-size: 2.5rem;
+        }
+
+        @include md {
+            font-size: 2rem;
+        }
+    }
+
+    .sub-heading-s {
+        font-size: 2rem;
+        font-weight: 500;
+
+        @include lg {
+            font-size: 1.5rem;
+            max-width: 15ch;
+        }
+
+        @include md {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.contact {
+
+    span {
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
+
+// Fonts
+$base-font : 'Montserrat',
+sans-serif;
+$secondary-font: 'Audiowide', cursive;
+$base-font-size: 1rem;
+
+// Gradient
+$primary-bg-gradient: linear-gradient(149deg, #51127f 0%, #d70a84 100%);
+$primary-flip-bg-gradient: linear-gradient(149deg, #d70a84 0%, #51127f 100%);
+$secondary-bg-gradient: linear-gradient(0deg, #970e81 0%, rgba(248, 236, 245, 0.2) 100%);
+$card-bg-gradient: linear-gradient(180deg, #651196 0%, rgba(236, 238, 248, 0.2) 100%);
+
+$secondary-drop-shadow: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.2));
+
+$secondary-bg: #a12fb1;
+
+// BreakPoints
+$breakpoints: (
+    "xs": 0,
+    "sm": 576px,
+    "md": 768px,
+    "lg": 1024px,
+    "xl": 1200px,
+    "xxl": 1400px,
+);
