@@ -32,10 +32,10 @@ html {
     justify-content: center;
 
     .main-img {
-        width: 28rem;
+        max-width: 28rem;
 
         @include xxl {
-            width: 24rem;
+            max-width: 24rem;
         }
 
     }

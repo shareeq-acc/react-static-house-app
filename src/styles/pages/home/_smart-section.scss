@@ -21,18 +21,18 @@
 
 .smart-section-img-wrap {
     img {
-        width: 28rem;
+        max-width: 28rem;
 
         @include bp (1300px) {
-            width: 24rem;
+            max-width: 24rem;
         }
 
         @include lg {
-            width: 22rem;
+            max-width: 22rem;
         }
 
         @include md {
-            width: 18rem;
+            max-width: 18rem;
         }
     }
 
