@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-static-house-app/static/css/main.ee9767ed.css",
+    "main.css": "/react-static-house-app/static/css/main.e6fea11c.css",
     "main.js": "/react-static-house-app/static/js/main.c6bf661a.js",
     "static/js/787.c4e7f8f9.chunk.js": "/react-static-house-app/static/js/787.c4e7f8f9.chunk.js",
     "static/media/main-img.png": "/react-static-house-app/static/media/main-img.4ec0415cf97677c3a9ac.png",
@@ -13,12 +13,12 @@
     "static/media/section-1-pattern-1.png": "/react-static-house-app/static/media/section-1-pattern-1.0dc1af3f6d1876aa92de.png",
     "static/media/section-1-pattern-2.png": "/react-static-house-app/static/media/section-1-pattern-2.b3c95124705707f0f5bd.png",
     "index.html": "/react-static-house-app/index.html",
-    "main.ee9767ed.css.map": "/react-static-house-app/static/css/main.ee9767ed.css.map",
+    "main.e6fea11c.css.map": "/react-static-house-app/static/css/main.e6fea11c.css.map",
     "main.c6bf661a.js.map": "/react-static-house-app/static/js/main.c6bf661a.js.map",
     "787.c4e7f8f9.chunk.js.map": "/react-static-house-app/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee9767ed.css",
+    "static/css/main.e6fea11c.css",
     "static/js/main.c6bf661a.js"
   ]
 }
